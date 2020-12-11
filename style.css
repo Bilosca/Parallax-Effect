@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 16px;
+}
+
+/* FORMATACAO DO CABECALHO*/
+
+#header{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #fff;
+    color: rgb(70, 70, 70);
+}
+
+#header h2{
+    color:rgb(70, 70, 70);
+    padding: 5px;
+}
+#header p{
+    color: rgb(44, 44, 44);
+    margin-bottom: 10px;
+}
+
+/* FORMATACAO PARALLAX */
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.77;
+    position: relative;
+}
+
+.caixa1{
+    background-image: url(./imgs/jett.jpg);
+}
+.caixa2{
+    background-image: url(./imgs/sage.jpg);
+    
+}
+.caixa3{
+    background-image: url(./imgs/1081932.jpg);
+
+}
+.caixa4{
+        background-image: url(./imgs/omen.png);
+
+}
+
+.conteudo-titulo{
+    position: absolute;
+    top: 45%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    color: rgb(70, 70, 70);
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    font-size: 25px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.conteudo-titulo span.titulo:hover{
+    color: #fff;
+    background:  rgb(51, 50, 50);
+    background-image: -webkit-linear-gradient(#626262 30%, #9e9e9e 150%);
+    cursor: default;
+}
+
+.detalhes-personagem{
+    text-align: justify;
+    padding: 50px 80px;
+    background-color: #fff;
+    color: rgb(70, 70, 70);
+}
+
+.detalhes-personagem h3{
+    color: rgb(65, 65, 65);
+    padding: 10px 0px;
+}
+
+.detalhes-personagem p {
+    color: rgb(70, 70, 70);
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.detalhes-personagem p.normal{
+    font-style: normal;
+    border-bottom: none;
+}
+
+h5{
+    padding: 10px 0px 5px 0px;
+}
