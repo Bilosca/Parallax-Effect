@@ -8,6 +8,6 @@ Busquei unir Dois grandes interesses:
 - Desenvolvimento Web
 - Jogos
 
-No qual tentei aprensentar as Características e Habilidades de quatro personagens do jogo usando o Efeito Parallax.
+No qual tentei apresentar quatro Personagens do jogo, suas respectivas Características e Habilidades, usando o Efeito Parallax.
 
 Como é um projeto bastante simples e de estudo para iniciação em Web Dev, foi usado apenas HTML e CSS.
